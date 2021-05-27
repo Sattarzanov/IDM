@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+
+/* Nav */
+
+.parentnav{
+    width: 100%;
+    margin: auto;    
+    background-color: blueviolet;
+}
+
+
+.inlinenav{
+    display: inline-flex;
+}
+
+
+/* logo */
+
+
+.logo li{
+    list-style: none;
+}
+
+
+.logo li img{
+    width: 150px;
+    height: 50px;
+}
+
+
+/* list */
+
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 35px;
+}
+
+
+.list li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin: 15px 20px;
+    transition: 1s;
+}
+
+.list li a:hover{
+    color: pink;
+    transition: 1s;
+}
+
+/* search */
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 38px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 38px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button i{
+    color: white;
+}
+
+/* banner */
+
+
+.banner{
+    background:url(../img/banner1.jpg) center / cover fixed ;
+    width: 100%;
+    height: 88vh;
+    margin: auto;
+}
+
+.bannertext h2{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 200px;
+    margin: 0;
+}
+
+
+.bannertext p{
+    color: white;
+    text-align: center;
+}
+
+
+
+/* arrow-up */
+
+a.idTop {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0%;
+    right: 0%;
+    background: #7db9e8;
+    opacity: .6;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 25px 25px 10px;
+   }
+   a.idTop:hover {
+    opacity: 1;
+   }
